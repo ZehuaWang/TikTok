@@ -9,6 +9,7 @@
         <module name="imoocvideosdevcommon" />
         <module name="imoocvideosdevmapper" />
         <module name="imoocvideosdevpojo" />
+        <module name="imoocvideosdevservice" />
       </profile>
     </annotationProcessing>
   </component>
