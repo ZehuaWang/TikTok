@@ -11,6 +11,7 @@
     <modules>
         <module>imooc-videos-dev-common</module>
         <module>imooc-videos-dev-pojo</module>
+        <module>imooc-videos-dev-mapper</module>
     </modules>
 
     <name>TikTok</name>
