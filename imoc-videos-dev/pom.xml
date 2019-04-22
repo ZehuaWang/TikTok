@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>imooc-videos-dev-common</module>
+        <module>imooc-videos-dev-pojo</module>
     </modules>
 
     <name>TikTok</name>
