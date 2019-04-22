@@ -10,12 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.iqx</groupId>
-    <artifactId>imooc-videos-dev-pojo</artifactId>
+    <artifactId>imooc-videos-dev-service</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.iqx</groupId>
-            <artifactId>imooc-videos-dev-common</artifactId>
+            <artifactId>imooc-videos-dev-mapper</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
