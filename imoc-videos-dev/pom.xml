@@ -13,6 +13,7 @@
         <module>imooc-videos-dev-pojo</module>
         <module>imooc-videos-dev-mapper</module>
         <module>imooc-videos-dev-service</module>
+        <module>imooc-videos-dev-mini-api</module>
     </modules>
 
     <name>TikTok</name>
