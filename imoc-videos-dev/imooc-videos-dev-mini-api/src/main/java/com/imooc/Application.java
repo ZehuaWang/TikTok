@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"com.imooc"})
 public class Application {
 
-    go-cpublic static void main(String[] args) {
+    public static void main(String[] args) {
         SpringApplication.run(Application.class,args);
     }
 
