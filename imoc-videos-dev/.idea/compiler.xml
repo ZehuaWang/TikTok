@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="imoocvideosdevcommon" />
         <module name="imoocvideosdevmapper" />
+        <module name="imoocvideosdevminiapi" />
         <module name="imoocvideosdevpojo" />
         <module name="imoocvideosdevservice" />
       </profile>

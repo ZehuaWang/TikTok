@@ -8,6 +8,7 @@
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-pojo/target/" />
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-mapper/target/" />
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-service/target/" />
+    <ignored path="$PROJECT_DIR$/imooc-videos-dev-mini-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +27,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +71,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-pojo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="12" selection-start-line="14" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="17" column="17" selection-start-line="14" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -73,6 +97,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -81,6 +112,8 @@
         <option value="$PROJECT_DIR$/imooc-videos-dev-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-common/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-service/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/Application.java" />
       </list>
     </option>
   </component>
@@ -111,6 +144,51 @@
             <path>
               <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
               <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="immocvideosdev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imoc-videos-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc-videos-dev-mini-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,15 +272,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555938317325</updated>
-      <workItem from="1555938321724" duration="2109000" />
+      <workItem from="1555938321724" duration="2565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2109000" />
+    <option name="totallyTimeSpent" value="2565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -224,7 +303,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Learn" />
@@ -266,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -280,17 +352,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-pojo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="14" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="14" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
