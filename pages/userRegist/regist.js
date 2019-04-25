@@ -33,9 +33,18 @@ Page({
             console.log(res.data);
             var status = res.data.status;
             if(status == 200) {
-
+              wx.showToast({
+                title: '注册成功',
+                icon: 'none',
+                duration: 3000
+              }),
+              app.userInfo = res.data.data;
             } else if(status == 500) {
-              
+              wx.showToast({
+                title: res.data.msg,
+                icon: 'none',
+                duration: 3000
+              })
             }
           }
 
