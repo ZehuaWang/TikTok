@@ -43,7 +43,7 @@ public class RegistLoginController {
             return IMoocJSONResult.errorMsg("User name already exist");
         }
 
-        return IMoocJSONResult.ok();
+        return IMoocJSONResult.ok(users);
     }
 
 }
