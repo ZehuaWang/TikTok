@@ -4,6 +4,8 @@ import com.imooc.pojo.Users;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MD5Utils;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,11 +13,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Api(value = "User Login and Register Interface", tags = {"Register and Login Controller"})
 public class RegistLoginController {
 
     @Autowired
     private UserService userService;
 
+    @ApiOperation(value = "User Register Interface", notes = "User register Interface")
     @PostMapping("/regist")
     public IMoocJSONResult regist(@RequestBody Users users) throws Exception { //Users为Json对象
 

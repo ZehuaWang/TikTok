@@ -1,24 +1,32 @@
 package com.imooc.pojo;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 
+@ApiModel(value = "User POJO", description = "This is the user POJO class")
 public class Users {
+    @ApiModelProperty(hidden = true)
     @Id
     private String id;
 
     /**
      * 用户名
      */
+    @ApiModelProperty(value = "User name", name = "username", example = "imoocuser", required = true)
     private String username;
 
     /**
      * 密码
      */
+    @ApiModelProperty(value = "Password", name = "password", example = "123456", required = true)
     private String password;
 
     /**
      * 我的头像，如果没有默认给一张
      */
+    @ApiModelProperty(hidden = true)
     @Column(name = "face_image")
     private String faceImage;
 
@@ -30,18 +38,21 @@ public class Users {
     /**
      * 我的粉丝数量
      */
+    @ApiModelProperty(hidden = true)
     @Column(name = "fans_counts")
     private Integer fansCounts;
 
     /**
      * 我关注的人总数
      */
+    @ApiModelProperty(hidden = true)
     @Column(name = "follow_counts")
     private Integer followCounts;
 
     /**
      * 我接受到的赞美/收藏 的数量
      */
+    @ApiModelProperty(hidden = true)
     @Column(name = "receive_like_counts")
     private Integer receiveLikeCounts;
 
