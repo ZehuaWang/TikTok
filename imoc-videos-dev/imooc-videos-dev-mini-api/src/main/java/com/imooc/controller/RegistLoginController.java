@@ -42,7 +42,7 @@ public class RegistLoginController {
         } else {
             return IMoocJSONResult.errorMsg("User name already exist");
         }
-
+        users.setPassword("");
         return IMoocJSONResult.ok(users);
     }
 
