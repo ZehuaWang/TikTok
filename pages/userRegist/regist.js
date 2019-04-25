@@ -17,6 +17,29 @@ Page({
           icon:'none',
           duration: 3000
         })
+      } else {
+        var serverUrl = app.serverUrl;
+        wx.request({
+          url: serverUrl + '/regist',
+          method: "POST",
+          data: {
+            username: username,
+            password: password
+          },
+          header: {
+            'content-type': 'application/json'
+          },
+          success: function(res) {
+            console.log(res.data);
+            var status = res.data.status;
+            if(status == 200) {
+
+            } else if(status == 500) {
+              
+            }
+          }
+
+        })
       }
     }
 })

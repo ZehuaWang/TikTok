@@ -8,5 +8,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "TikTok",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "debug": true
 }
