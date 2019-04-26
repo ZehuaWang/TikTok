@@ -46,4 +46,29 @@ public class RegistLoginController {
         return IMoocJSONResult.ok(users);
     }
 
+    @ApiOperation(value = "User Log in", notes = "User Login Interface")
+    @PostMapping("/login")
+    public IMoocJSONResult login(@RequestBody Users users) throws Exception {
+
+        String username = users.getUsername();
+        String password = users.getPassword();
+
+        //1.用户名和密码不能为空
+        if(StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
+            return IMoocJSONResult.ok("User Name and Password Can not be empty...");
+        }
+
+        //2.判断用户是否存在
+        Users usersResult = userService.queryUserForLogin(username,MD5Utils.getMD5Str(users.getPassword()));
+
+        //3.返回
+        if(usersResult != null) {
+            usersResult.setPassword("");
+            return IMoocJSONResult.ok(usersResult);
+        } else {
+            return IMoocJSONResult.errorMsg("Wrong User name or Password");
+        }
+
+    }
+
 }
