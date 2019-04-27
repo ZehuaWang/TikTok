@@ -68,7 +68,5 @@ public class RegistLoginController {
         } else {
             return IMoocJSONResult.errorMsg("Wrong User name or Password");
         }
-
     }
-
 }
