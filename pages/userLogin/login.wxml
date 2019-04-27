@@ -24,6 +24,7 @@
                 <button class="loginBtn" type="primary" form-type='submit'>登录</button>
             </view>
 
+            <!--跳转到注册页面-->
             <view>
                 <button class="goRegistBtn" type="warn" bindtap="goRegistPage">没有账号？点击注册</button>
             </view>

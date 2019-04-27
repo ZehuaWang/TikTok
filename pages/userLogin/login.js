@@ -47,7 +47,7 @@ Page({
         },
         success: function (res) {
           console.log(res.data);
-          wx.hideLoading();
+          wx.hideLoading(); //请求成功后去掉loading状态
           if (res.data.status == 200) {
             // 登录成功跳转 
             wx.showToast({
@@ -58,6 +58,7 @@ Page({
             // app.userInfo = res.data.data;
             // fixme 修改原有的全局对象为本地缓存
             //app.setGlobalUserInfo(res.data.data);
+            //设置全局对象
             app.userInfo = res.data.data;
             // 页面跳转
 
