@@ -49,5 +49,11 @@ Page({
           }
         })
       }
+    },
+    
+    goLoginPage: () => {
+      wx.navigateTo({
+        url: '../userLogin/login'
+      })
     }
 })

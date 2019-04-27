@@ -86,8 +86,9 @@ Page({
     }
   },
 
+  
   goRegistPage:function() {
-    wx.redirectTo({
+    wx.navigateTo({
       url: '../userRegist/regist',
     })
   }
