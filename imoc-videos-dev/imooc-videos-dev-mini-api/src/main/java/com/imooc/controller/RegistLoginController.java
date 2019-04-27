@@ -53,6 +53,9 @@ public class RegistLoginController {
         String username = users.getUsername();
         String password = users.getPassword();
 
+        //设置线程睡眠 -> 改善用户体验
+        Thread.sleep(3000);
+
         //1.用户名和密码不能为空
         if(StringUtils.isEmpty(username) || StringUtils.isEmpty(password)) {
             return IMoocJSONResult.ok("User Name and Password Can not be empty...");
