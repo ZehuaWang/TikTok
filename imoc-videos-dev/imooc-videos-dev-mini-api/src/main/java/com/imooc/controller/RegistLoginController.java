@@ -1,11 +1,13 @@
 package com.imooc.controller;
 
 import com.imooc.pojo.Users;
+import com.imooc.pojo.vo.UsersVO;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MD5Utils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -49,9 +51,14 @@ public class RegistLoginController extends BasicController{
         String uniqueToken = UUID.randomUUID().toString();
         redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
 
+        UsersVO usersVO = new UsersVO();
 
+        BeanUtils.copyProperties(users,usersVO);
 
-        return IMoocJSONResult.ok(users);
+        usersVO.setUserToken(uniqueToken);
+
+        //VO is view object, used to interact with the view layer
+        return IMoocJSONResult.ok(usersVO);
     }
 
     @ApiOperation(value = "User Log in", notes = "User Login Interface")
