@@ -48,7 +48,9 @@ public class RegistLoginController extends BasicController{
 
         String uniqueToken = UUID.randomUUID().toString();
         redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
-        
+
+
+
         return IMoocJSONResult.ok(users);
     }
 
