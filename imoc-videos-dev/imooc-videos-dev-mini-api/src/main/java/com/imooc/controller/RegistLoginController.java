@@ -48,14 +48,16 @@ public class RegistLoginController extends BasicController{
         }
         users.setPassword("");
 
-        String uniqueToken = UUID.randomUUID().toString();
-        redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
+//        String uniqueToken = UUID.randomUUID().toString();
+//        redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
+//
+//        UsersVO usersVO = new UsersVO();
+//
+//        BeanUtils.copyProperties(users,usersVO);
+//
+//        usersVO.setUserToken(uniqueToken);
 
-        UsersVO usersVO = new UsersVO();
-
-        BeanUtils.copyProperties(users,usersVO);
-
-        usersVO.setUserToken(uniqueToken);
+        UsersVO usersVO = setUsersRedisSessionToken(users);
 
         //VO is view object, used to interact with the view layer
         return IMoocJSONResult.ok(usersVO);
@@ -82,9 +84,26 @@ public class RegistLoginController extends BasicController{
         //3.返回
         if(usersResult != null) {
             usersResult.setPassword("");
-            return IMoocJSONResult.ok(usersResult);
+            UsersVO usersVO = setUsersRedisSessionToken(usersResult);
+            return IMoocJSONResult.ok(usersVO);
         } else {
             return IMoocJSONResult.errorMsg("Wrong User name or Password");
         }
+    }
+
+    private UsersVO setUsersRedisSessionToken(Users usersModel) {
+
+        String uniqueToken = UUID.randomUUID().toString();
+        redis.set(USER_REDIS_SESSION+":"+ usersModel.getId(), uniqueToken,1000*60*30);
+
+        UsersVO usersVO = new UsersVO();
+
+        BeanUtils.copyProperties(usersModel,usersVO);
+
+        usersVO.setUserToken(uniqueToken);
+
+        //VO is view object, used to interact with the view layer
+        return usersVO;
+
     }
 }
