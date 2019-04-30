@@ -78,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/BasicController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistLoginController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegistLoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="375">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#561#580#0" expanded="true" />
@@ -103,16 +103,22 @@
                 <element signature="e#1004#1023#0" expanded="true" />
                 <element signature="e#1122#1141#0" expanded="true" />
                 <element signature="e#1226#1245#0" expanded="true" />
-                <element signature="e#1786#1807#0" expanded="true" />
-                <element signature="e#1786#1807#0" expanded="true" />
+                <element signature="e#1833#1854#0" expanded="true" />
+                <element signature="e#1833#1854#0" expanded="true" />
+                <element signature="e#1873#1911#1" expanded="true" />
+                <element signature="e#1942#1979#0" expanded="true" />
+                <element signature="e#1942#1979#0" expanded="true" />
+                <element signature="e#1942#1979#0" expanded="true" />
+                <element signature="e#1966#1979#0" expanded="true" />
+                <element signature="e#1942#1979#0" expanded="true" />
                 <element signature="e#2057#2094#1" expanded="true" />
                 <element signature="e#2075#2094#0" expanded="true" />
                 <element signature="e#2104#2127#1" expanded="true" />
                 <element signature="e#2122#2141#0" expanded="true" />
                 <element signature="e#2385#2416#1" expanded="true" />
                 <element signature="e#2463#2482#0" expanded="true" />
-                <element signature="e#2576#2603#0" expanded="true" />
-                <element signature="e#2576#2603#0" expanded="true" />
+                <element signature="e#2782#2809#0" expanded="true" />
+                <element signature="e#2782#2809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,9 +191,9 @@
         <option value="$PROJECT_DIR$/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/Users.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/BasicController.java" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" />
       </list>
     </option>
   </component>
@@ -411,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28631000" />
+    <option name="totallyTimeSpent" value="28996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,32 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#561#580#0" expanded="true" />
-            <element signature="e#605#624#0" expanded="true" />
-            <element signature="e#945#982#1" expanded="true" />
-            <element signature="e#1004#1023#0" expanded="true" />
-            <element signature="e#1122#1141#0" expanded="true" />
-            <element signature="e#1226#1245#0" expanded="true" />
-            <element signature="e#1786#1807#0" expanded="true" />
-            <element signature="e#1786#1807#0" expanded="true" />
-            <element signature="e#2057#2094#1" expanded="true" />
-            <element signature="e#2075#2094#0" expanded="true" />
-            <element signature="e#2104#2127#1" expanded="true" />
-            <element signature="e#2122#2141#0" expanded="true" />
-            <element signature="e#2385#2416#1" expanded="true" />
-            <element signature="e#2463#2482#0" expanded="true" />
-            <element signature="e#2576#2603#0" expanded="true" />
-            <element signature="e#2576#2603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
@@ -779,9 +759,41 @@
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/BasicController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#580#0" expanded="true" />
+            <element signature="e#605#624#0" expanded="true" />
+            <element signature="e#945#982#1" expanded="true" />
+            <element signature="e#1004#1023#0" expanded="true" />
+            <element signature="e#1122#1141#0" expanded="true" />
+            <element signature="e#1226#1245#0" expanded="true" />
+            <element signature="e#1833#1854#0" expanded="true" />
+            <element signature="e#1833#1854#0" expanded="true" />
+            <element signature="e#1873#1911#1" expanded="true" />
+            <element signature="e#1942#1979#0" expanded="true" />
+            <element signature="e#1942#1979#0" expanded="true" />
+            <element signature="e#1942#1979#0" expanded="true" />
+            <element signature="e#1966#1979#0" expanded="true" />
+            <element signature="e#1942#1979#0" expanded="true" />
+            <element signature="e#2057#2094#1" expanded="true" />
+            <element signature="e#2075#2094#0" expanded="true" />
+            <element signature="e#2104#2127#1" expanded="true" />
+            <element signature="e#2122#2141#0" expanded="true" />
+            <element signature="e#2385#2416#1" expanded="true" />
+            <element signature="e#2463#2482#0" expanded="true" />
+            <element signature="e#2782#2809#0" expanded="true" />
+            <element signature="e#2782#2809#0" expanded="true" />
           </folding>
         </state>
       </provider>

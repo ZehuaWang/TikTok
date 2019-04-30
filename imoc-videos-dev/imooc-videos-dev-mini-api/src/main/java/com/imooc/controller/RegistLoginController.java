@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.UUID;
+
 @RestController
 @Api(value = "User Login and Register Interface", tags = {"Register and Login Controller"})
 public class RegistLoginController extends BasicController{
@@ -43,6 +45,10 @@ public class RegistLoginController extends BasicController{
             return IMoocJSONResult.errorMsg("User name already exist");
         }
         users.setPassword("");
+
+        String uniqueToken = UUID.randomUUID().toString();
+        redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
+        
         return IMoocJSONResult.ok(users);
     }
 
