@@ -47,16 +47,7 @@ public class RegistLoginController extends BasicController{
             return IMoocJSONResult.errorMsg("User name already exist");
         }
         users.setPassword("");
-
-//        String uniqueToken = UUID.randomUUID().toString();
-//        redis.set(USER_REDIS_SESSION+":"+ users.getId(), uniqueToken,1000*60*30);
-//
-//        UsersVO usersVO = new UsersVO();
-//
-//        BeanUtils.copyProperties(users,usersVO);
-//
-//        usersVO.setUserToken(uniqueToken);
-
+        
         UsersVO usersVO = setUsersRedisSessionToken(users);
 
         //VO is view object, used to interact with the view layer
