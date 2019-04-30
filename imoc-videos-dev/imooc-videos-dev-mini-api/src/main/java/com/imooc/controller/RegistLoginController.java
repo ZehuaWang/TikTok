@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Api(value = "User Login and Register Interface", tags = {"Register and Login Controller"})
-public class RegistLoginController {
+public class RegistLoginController extends BasicController{
 
     @Autowired
     private UserService userService;
