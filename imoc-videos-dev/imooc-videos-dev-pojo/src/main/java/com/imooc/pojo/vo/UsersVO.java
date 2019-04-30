@@ -12,6 +12,17 @@ public class UsersVO {
     @Id
     private String id;
 
+    public String getUserToken() {
+        return userToken;
+    }
+
+    public void setUserToken(String userToken) {
+        this.userToken = userToken;
+    }
+
+    @ApiModelProperty(hidden = true)
+    private String userToken;
+
     /**
      * 用户名
      */
@@ -28,7 +39,6 @@ public class UsersVO {
      * 我的头像，如果没有默认给一张
      */
     @ApiModelProperty(hidden = true)
-    @Column(name = "face_image")
     private String faceImage;
 
     /**
@@ -40,21 +50,18 @@ public class UsersVO {
      * 我的粉丝数量
      */
     @ApiModelProperty(hidden = true)
-    @Column(name = "fans_counts")
     private Integer fansCounts;
 
     /**
      * 我关注的人总数
      */
     @ApiModelProperty(hidden = true)
-    @Column(name = "follow_counts")
     private Integer followCounts;
 
     /**
      * 我接受到的赞美/收藏 的数量
      */
     @ApiModelProperty(hidden = true)
-    @Column(name = "receive_like_counts")
     private Integer receiveLikeCounts;
 
     /**
