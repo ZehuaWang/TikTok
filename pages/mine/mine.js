@@ -1,34 +1,10 @@
-var videoUtil = require('../../utils/videoUtil.js')
+//var videoUtil = require('../../utils/videoUtil.js')
 
 const app = getApp()
 
 Page({
   data: {
-    faceUrl: "../resource/images/noneface.png",
-    isMe: true,
-    isFollow: false,
-
-
-    videoSelClass: "video-info",
-    isSelectedWork: "video-info-selected",
-    isSelectedLike: "",
-    isSelectedFollow: "",
-
-    myVideoList: [],
-    myVideoPage: 1,
-    myVideoTotal: 1,
-
-    likeVideoList: [],
-    likeVideoPage: 1,
-    likeVideoTotal: 1,
-
-    followVideoList: [],
-    followVideoPage: 1,
-    followVideoTotal: 1,
-
-    myWorkFalg: false,
-    myLikesFalg: true,
-    myFollowFalg: true
+    faceUrl: "../resource/images/noneface.png"
 
   },
 
