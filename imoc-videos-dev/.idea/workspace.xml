@@ -67,21 +67,25 @@
       <file leaf-file-name="RegistLoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="91" column="53" lean-forward="true" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+            <state relative-caret-position="212">
+              <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2245#2290#1" expanded="true" />
                 <element signature="e#3174#3219#1" expanded="true" />
+                <element signature="e#3499#3528#0" expanded="true" />
+                <element signature="e#3499#3528#0" expanded="true" />
+                <element signature="e#3499#3528#0" expanded="true" />
+                <element signature="e#3499#3528#0" expanded="true" />
                 <element signature="e#3325#3375#1" expanded="true" />
-                <element signature="e#3232#3274#0" expanded="true" />
-                <element signature="e#3232#3274#0" expanded="true" />
-                <element signature="e#3232#3274#0" expanded="true" />
+                <element signature="e#3703#3745#0" expanded="true" />
+                <element signature="e#3703#3745#0" expanded="true" />
+                <element signature="e#3703#3745#0" expanded="true" />
                 <element signature="e#3418#3431#0" expanded="true" />
-                <element signature="e#3232#3274#0" expanded="true" />
+                <element signature="e#3703#3745#0" expanded="true" />
                 <element signature="e#3467#3499#1" expanded="true" />
-                <element signature="e#3407#3440#0" expanded="true" />
-                <element signature="e#3407#3440#0" expanded="true" />
+                <element signature="e#3878#3911#0" expanded="true" />
+                <element signature="e#3878#3911#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -366,12 +370,12 @@
       <workItem from="1555938321724" duration="27272000" />
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
-      <workItem from="1556594248957" duration="2095000" />
+      <workItem from="1556594248957" duration="4160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32167000" />
+    <option name="totallyTimeSpent" value="34232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -541,15 +545,19 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2245#2290#1" expanded="true" />
             <element signature="e#3174#3219#1" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
             <element signature="e#3325#3375#1" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
             <element signature="e#3418#3431#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
             <element signature="e#3467#3499#1" expanded="true" />
-            <element signature="e#3407#3440#0" expanded="true" />
-            <element signature="e#3407#3440#0" expanded="true" />
+            <element signature="e#3878#3911#0" expanded="true" />
+            <element signature="e#3878#3911#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -866,21 +874,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="91" column="53" lean-forward="true" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+        <state relative-caret-position="212">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2245#2290#1" expanded="true" />
             <element signature="e#3174#3219#1" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3499#3528#0" expanded="true" />
             <element signature="e#3325#3375#1" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
             <element signature="e#3418#3431#0" expanded="true" />
-            <element signature="e#3232#3274#0" expanded="true" />
+            <element signature="e#3703#3745#0" expanded="true" />
             <element signature="e#3467#3499#1" expanded="true" />
-            <element signature="e#3407#3440#0" expanded="true" />
-            <element signature="e#3407#3440#0" expanded="true" />
+            <element signature="e#3878#3911#0" expanded="true" />
+            <element signature="e#3878#3911#0" expanded="true" />
           </folding>
         </state>
       </provider>

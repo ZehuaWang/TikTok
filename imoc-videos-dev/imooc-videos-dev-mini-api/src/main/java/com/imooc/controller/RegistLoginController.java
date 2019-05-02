@@ -6,6 +6,7 @@ import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MD5Utils;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,6 +81,15 @@ public class RegistLoginController extends BasicController{
         } else {
             return IMoocJSONResult.errorMsg("Wrong User name or Password");
         }
+    }
+
+    @ApiOperation(value = "User log out", notes = "User logout interface")
+    @ApiImplicitParam(name = "userId", value = "User id", required = true, dataType = "String", paramType = "query")
+    @PostMapping("/logout")
+    public IMoocJSONResult logout(String userId) throws Exception {
+        //Delete the user session in redis means log out
+        redis.del(USER_REDIS_SESSION+":"+userId);
+        return null;
     }
 
     private UsersVO setUsersRedisSessionToken(Users usersModel) {
