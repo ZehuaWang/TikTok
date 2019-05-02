@@ -47,7 +47,7 @@ public class RegistLoginController extends BasicController{
             return IMoocJSONResult.errorMsg("User name already exist");
         }
         users.setPassword("");
-        
+
         UsersVO usersVO = setUsersRedisSessionToken(users);
 
         //VO is view object, used to interact with the view layer
