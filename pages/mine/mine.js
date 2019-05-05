@@ -71,13 +71,11 @@ Page({
           var data = res.data;
           console.log(data);
           wx.hideLoading();
-          debugger;
           wx.showToast({
             title: 'Upload success',
             icon: "success",
             duration: 3000
           })
-          debugger;
         }
       })
       }
