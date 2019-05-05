@@ -49,7 +49,8 @@ Page({
       count: 1,
       sizeType: ['compressed'],
       sourceType: ['album'],
-      success: function(res) {var tempFilePaths = res.tempFilePaths;
+      success: function(res) {
+      var tempFilePaths = res.tempFilePaths;
       console.log(tempFilePaths);
 
       var serverUrl = app.serverUrl;
@@ -70,10 +71,13 @@ Page({
           var data = res.data;
           console.log(data);
           wx.hideLoading();
+          debugger;
           wx.showToast({
-            title: 'Upload Face Image success',
-            icon: "success"
+            title: 'Upload success',
+            icon: "success",
+            duration: 3000
           })
+          debugger;
         }
       })
       }
