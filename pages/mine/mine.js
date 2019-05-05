@@ -71,11 +71,17 @@ Page({
           var data = res.data;
           console.log(data);
           wx.hideLoading();
-          wx.showToast({
-            title: 'Upload success',
-            icon: "success",
-            duration: 3000
-          })
+          if(res.data.status == 200) {
+            wx.showToast({
+              title: 'Upload success',
+              icon: "success",
+              duration: 3000
+            });
+          } else if(res.data.status == 500) {
+            wx.showToast({
+              title: res.data.msg
+            });
+          }
         }
       })
       }
