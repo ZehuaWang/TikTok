@@ -40,5 +40,43 @@ Page({
       }
     })
 
+  }, //End of log out function
+
+  changeFace: function () {
+
+    //Open the photo
+    wx.chooseImage({
+      count: 1,
+      sizeType: ['compressed'],
+      sourceType: ['album'],
+      success: function(res) {var tempFilePaths = res.tempFilePaths;
+      console.log(tempFilePaths);
+
+      var serverUrl = app.serverUrl;
+      wx.showLoading({
+        title: 'Uploading',
+      })
+
+      //Upload the face image
+      wx.uploadFile({
+        url: serverUrl + '/user/uploadFace?userId=' + app.userInfo.id,
+        filePath: tempFilePaths[0],
+
+        name: 'file',
+        header: {
+          'content-type' : 'application/json'
+        },
+        success: function(res) {
+          var data = res.data;
+          console.log(data);
+          wx.hideLoading();
+          wx.showToast({
+            title: 'Upload Face Image success',
+            icon: "success"
+          })
+        }
+      })
+      }
+    })
   }
 })
