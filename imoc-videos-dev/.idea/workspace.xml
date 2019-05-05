@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1331#1352#1" expanded="true" />
@@ -100,30 +99,35 @@
                 <element signature="e#1469#1486#0" expanded="true" />
                 <element signature="e#1668#1709#1" expanded="true" />
                 <element signature="e#1726#1757#1" expanded="true" />
-                <element signature="e#1769#2732#0" expanded="true" />
-                <element signature="e#1769#2732#0" expanded="true" />
+                <element signature="e#1798#2761#0" expanded="true" />
+                <element signature="e#1798#2761#0" expanded="true" />
                 <element signature="e#1811#1860#1" expanded="true" />
                 <element signature="e#1829#1859#0" expanded="true" />
-                <element signature="e#1893#2656#0" expanded="true" />
-                <element signature="e#1893#2656#0" expanded="true" />
+                <element signature="e#1922#2685#0" expanded="true" />
+                <element signature="e#1922#2685#0" expanded="true" />
                 <element signature="e#1955#2020#1" expanded="true" />
-                <element signature="e#2007#2048#0" expanded="true" />
-                <element signature="e#2007#2048#0" expanded="true" />
-                <element signature="e#2007#2048#0" expanded="true" />
-                <element signature="e#2007#2048#0" expanded="true" />
-                <element signature="e#2007#2048#0" expanded="true" />
-                <element signature="e#2121#2135#0" expanded="true" />
-                <element signature="e#2121#2135#0" expanded="true" />
+                <element signature="e#2036#2077#0" expanded="true" />
+                <element signature="e#2036#2077#0" expanded="true" />
+                <element signature="e#2036#2077#0" expanded="true" />
+                <element signature="e#2036#2077#0" expanded="true" />
+                <element signature="e#2036#2077#0" expanded="true" />
+                <element signature="e#2150#2164#0" expanded="true" />
+                <element signature="e#2150#2164#0" expanded="true" />
                 <element signature="e#2118#2157#1" expanded="true" />
-                <element signature="e#2220#2413#0" expanded="true" />
+                <element signature="e#2249#2442#0" expanded="true" />
                 <element signature="e#2178#2201#0" expanded="true" />
                 <element signature="e#2214#2237#0" expanded="true" />
                 <element signature="e#2214#2251#0" expanded="true" />
-                <element signature="e#2220#2413#0" expanded="true" />
+                <element signature="e#2249#2442#0" expanded="true" />
                 <element signature="e#2305#2328#0" expanded="true" />
                 <element signature="e#2477#2502#0" expanded="true" />
-                <element signature="e#2743#2874#0" expanded="true" />
-                <element signature="e#2743#2874#0" expanded="true" />
+                <element signature="e#2772#2903#0" expanded="true" />
+                <element signature="e#2772#2903#0" expanded="true" />
+                <element signature="e#3074#3091#1" expanded="true" />
+                <element signature="e#3182#3201#0" expanded="true" />
+                <element signature="e#3182#3201#0" expanded="true" />
+                <element signature="e#3211#3243#0" expanded="true" />
+                <element signature="e#3211#3243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1217#1274#1" expanded="true" />
@@ -220,9 +224,9 @@
         <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/BasicController.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/vo/UsersVO.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" />
-        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java" />
         <option value="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" />
       </list>
     </option>
   </component>
@@ -475,12 +479,12 @@
       <workItem from="1555938321724" duration="27272000" />
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
-      <workItem from="1556594248957" duration="12207000" />
+      <workItem from="1556594248957" duration="12528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42279000" />
+    <option name="totallyTimeSpent" value="42600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +497,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32107496" />
@@ -512,12 +515,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49928468" visible="true" weight="0.0028288544" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" sideWeight="0.49928468" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.32107496" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3025751" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" weight="0.3297568" />
@@ -976,46 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1331#1352#1" expanded="true" />
-            <element signature="e#1546#1591#1" expanded="true" />
-            <element signature="e#1469#1486#0" expanded="true" />
-            <element signature="e#1469#1486#0" expanded="true" />
-            <element signature="e#1668#1709#1" expanded="true" />
-            <element signature="e#1726#1757#1" expanded="true" />
-            <element signature="e#1769#2732#0" expanded="true" />
-            <element signature="e#1769#2732#0" expanded="true" />
-            <element signature="e#1811#1860#1" expanded="true" />
-            <element signature="e#1829#1859#0" expanded="true" />
-            <element signature="e#1893#2656#0" expanded="true" />
-            <element signature="e#1893#2656#0" expanded="true" />
-            <element signature="e#1955#2020#1" expanded="true" />
-            <element signature="e#2007#2048#0" expanded="true" />
-            <element signature="e#2007#2048#0" expanded="true" />
-            <element signature="e#2007#2048#0" expanded="true" />
-            <element signature="e#2007#2048#0" expanded="true" />
-            <element signature="e#2007#2048#0" expanded="true" />
-            <element signature="e#2121#2135#0" expanded="true" />
-            <element signature="e#2121#2135#0" expanded="true" />
-            <element signature="e#2118#2157#1" expanded="true" />
-            <element signature="e#2220#2413#0" expanded="true" />
-            <element signature="e#2178#2201#0" expanded="true" />
-            <element signature="e#2214#2237#0" expanded="true" />
-            <element signature="e#2214#2251#0" expanded="true" />
-            <element signature="e#2220#2413#0" expanded="true" />
-            <element signature="e#2305#2328#0" expanded="true" />
-            <element signature="e#2477#2502#0" expanded="true" />
-            <element signature="e#2743#2874#0" expanded="true" />
-            <element signature="e#2743#2874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1025,14 +988,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1217#1274#1" expanded="true" />
             <element signature="e#1605#1640#1" expanded="true" />
             <element signature="e#1661#1718#1" expanded="true" />
             <element signature="e#1753#1765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1331#1352#1" expanded="true" />
+            <element signature="e#1546#1591#1" expanded="true" />
+            <element signature="e#1469#1486#0" expanded="true" />
+            <element signature="e#1469#1486#0" expanded="true" />
+            <element signature="e#1668#1709#1" expanded="true" />
+            <element signature="e#1726#1757#1" expanded="true" />
+            <element signature="e#1798#2761#0" expanded="true" />
+            <element signature="e#1798#2761#0" expanded="true" />
+            <element signature="e#1811#1860#1" expanded="true" />
+            <element signature="e#1829#1859#0" expanded="true" />
+            <element signature="e#1922#2685#0" expanded="true" />
+            <element signature="e#1922#2685#0" expanded="true" />
+            <element signature="e#1955#2020#1" expanded="true" />
+            <element signature="e#2036#2077#0" expanded="true" />
+            <element signature="e#2036#2077#0" expanded="true" />
+            <element signature="e#2036#2077#0" expanded="true" />
+            <element signature="e#2036#2077#0" expanded="true" />
+            <element signature="e#2036#2077#0" expanded="true" />
+            <element signature="e#2150#2164#0" expanded="true" />
+            <element signature="e#2150#2164#0" expanded="true" />
+            <element signature="e#2118#2157#1" expanded="true" />
+            <element signature="e#2249#2442#0" expanded="true" />
+            <element signature="e#2178#2201#0" expanded="true" />
+            <element signature="e#2214#2237#0" expanded="true" />
+            <element signature="e#2214#2251#0" expanded="true" />
+            <element signature="e#2249#2442#0" expanded="true" />
+            <element signature="e#2305#2328#0" expanded="true" />
+            <element signature="e#2477#2502#0" expanded="true" />
+            <element signature="e#2772#2903#0" expanded="true" />
+            <element signature="e#2772#2903#0" expanded="true" />
+            <element signature="e#3074#3091#1" expanded="true" />
+            <element signature="e#3182#3201#0" expanded="true" />
+            <element signature="e#3182#3201#0" expanded="true" />
+            <element signature="e#3211#3243#0" expanded="true" />
+            <element signature="e#3211#3243#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,6 @@
 package com.imooc.controller;
 
+import com.imooc.pojo.Users;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
 import io.swagger.annotations.Api;
@@ -87,6 +88,13 @@ public class userController {
             }
         }
 
+        /**
+         * Update the user faceImage to database
+         */
+        Users users = new Users();
+        users.setId(userId);
+        users.setFaceImage(uploadPathDB);
+        userService.updateUserInfo(users);
 
         return IMoocJSONResult.ok();
     }
