@@ -9,6 +9,8 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        super.addResourceHandlers(registry);
+        //设置访问所有的静态资源
+        registry.addResourceHandler("/**")
+                .addResourceLocations("file:/Users/apple/Desktop/scala/TikTok/imoc-user-file/");
     }
 }
