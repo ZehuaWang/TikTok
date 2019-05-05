@@ -18,4 +18,10 @@ public interface UserService {
     public void saveUser(Users users);
 
     public Users queryUserForLogin(String username, String password);
+
+    /**
+     * Change the user information interface
+     * @param user
+     */
+    public void updateUserInfo(Users user);
 }

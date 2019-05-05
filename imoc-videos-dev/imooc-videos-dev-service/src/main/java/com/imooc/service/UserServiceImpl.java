@@ -39,6 +39,8 @@ public class UserServiceImpl implements UserService {
 
     }
 
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
     public Users queryUserForLogin(String username, String password) {
         Example userExample = new Example(Users.class);
         Example.Criteria criteria = userExample.createCriteria();
@@ -47,4 +49,14 @@ public class UserServiceImpl implements UserService {
         Users result = userMapper.selectOneByExample(userExample);
         return result;
     }
+
+    @Override
+    public void updateUserInfo(Users user) {
+        Example userExample = new Example(Users.class);
+        Example.Criteria criteria = userExample.createCriteria();
+        criteria.andEqualTo("id", user.getId());
+        userMapper.updateByExampleSelective(user, userExample);
+    }
+
+
 }
