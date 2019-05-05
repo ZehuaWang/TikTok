@@ -39,6 +39,9 @@ public class userController {
     @PostMapping("/uploadFace")
     public IMoocJSONResult uploadFace(String userId,
                                       @RequestParam("file") MultipartFile[] files) throws Exception {
+
+        if(StringUtils.isEmpty(userId)) {return IMoocJSONResult.errorMsg("UserID is empty"); }
+
         //文件保存的命名空间
         String fileSpace = "/Users/apple/Desktop/scala/TikTok/imoc-user-file";
 
@@ -73,9 +76,10 @@ public class userController {
                     IOUtils.copy(inputStream, fileOutputStream);
 
                 }
-            }
+            } else {return IMoocJSONResult.errorMsg("Uploading error...");}
         } catch (Exception e) {
-
+            e.printStackTrace();
+            return IMoocJSONResult.errorMsg("Uploading error...");
         } finally {
             if(fileOutputStream != null) {
                 fileOutputStream.flush();
