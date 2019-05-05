@@ -25,7 +25,18 @@ Page({
       success: function (res) {
         console.log(res.data);
         wx.hideLoading();
-        if(res.data.status == 200) {}
+        if(res.data.status == 200) {
+          app.userInfo = null; //清除全局用户对象
+          wx.showToast({
+            title: 'Logout Successfully',
+            icon: 'success',
+            duration: 2000
+          });
+          //页面跳转
+          wx.navigateTo({
+            url: '../userLogin/login'
+          })
+          } 
       }
     })
 
