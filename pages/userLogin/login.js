@@ -60,7 +60,10 @@ Page({
             //app.setGlobalUserInfo(res.data.data);
             //设置全局对象
             app.userInfo = res.data.data;
-            // 页面跳转
+            // 页面跳转 -> 跳转到个人页面 mine
+            wx.navigateTo({
+              url: '../mine/mine'
+            })
 
             var redirectUrl = me.redirectUrl;
             if (redirectUrl != null && redirectUrl != undefined && redirectUrl != '') {

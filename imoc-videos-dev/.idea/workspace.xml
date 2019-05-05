@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="" />
+    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/target/classes/com/imooc/controller/RegistLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/target/classes/com/imooc/controller/RegistLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/mine/mine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/userLogin/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/userLogin/login.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-common/target/" />
@@ -35,8 +42,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="38">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -65,25 +72,29 @@
       <file leaf-file-name="RegistLoginController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="186">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2245#2290#1" expanded="true" />
                 <element signature="e#3174#3219#1" expanded="true" />
-                <element signature="e#3499#3528#0" expanded="true" />
-                <element signature="e#3499#3528#0" expanded="true" />
-                <element signature="e#3499#3528#0" expanded="true" />
-                <element signature="e#3499#3528#0" expanded="true" />
+                <element signature="e#3516#3545#0" expanded="true" />
+                <element signature="e#3516#3545#0" expanded="true" />
+                <element signature="e#3516#3545#0" expanded="true" />
+                <element signature="e#3516#3545#0" expanded="true" />
+                <element signature="e#3558#3658#0" expanded="true" />
+                <element signature="e#3558#3658#0" expanded="true" />
+                <element signature="e#3694#3715#0" expanded="true" />
+                <element signature="e#3694#3715#0" expanded="true" />
                 <element signature="e#3325#3375#1" expanded="true" />
-                <element signature="e#3703#3745#0" expanded="true" />
-                <element signature="e#3703#3745#0" expanded="true" />
-                <element signature="e#3703#3745#0" expanded="true" />
+                <element signature="e#3869#3911#0" expanded="true" />
+                <element signature="e#3869#3911#0" expanded="true" />
+                <element signature="e#3869#3911#0" expanded="true" />
                 <element signature="e#3418#3431#0" expanded="true" />
-                <element signature="e#3703#3745#0" expanded="true" />
+                <element signature="e#3869#3911#0" expanded="true" />
                 <element signature="e#3467#3499#1" expanded="true" />
-                <element signature="e#3878#3911#0" expanded="true" />
-                <element signature="e#3878#3911#0" expanded="true" />
+                <element signature="e#4044#4077#0" expanded="true" />
+                <element signature="e#4044#4077#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -368,12 +379,12 @@
       <workItem from="1555938321724" duration="27272000" />
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
-      <workItem from="1556594248957" duration="4327000" />
+      <workItem from="1556594248957" duration="5592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34399000" />
+    <option name="totallyTimeSpent" value="35664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +397,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32107496" />
@@ -405,7 +415,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" sideWeight="0.49928468" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" sideWeight="0.49928468" visible="true" weight="0.5558699" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.32107496" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
@@ -543,19 +553,23 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2245#2290#1" expanded="true" />
             <element signature="e#3174#3219#1" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3558#3658#0" expanded="true" />
+            <element signature="e#3558#3658#0" expanded="true" />
+            <element signature="e#3694#3715#0" expanded="true" />
+            <element signature="e#3694#3715#0" expanded="true" />
             <element signature="e#3325#3375#1" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
             <element signature="e#3418#3431#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
             <element signature="e#3467#3499#1" expanded="true" />
-            <element signature="e#3878#3911#0" expanded="true" />
-            <element signature="e#3878#3911#0" expanded="true" />
+            <element signature="e#4044#4077#0" expanded="true" />
+            <element signature="e#4044#4077#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        <state relative-caret-position="38">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -872,25 +886,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/RegistLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="186">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2245#2290#1" expanded="true" />
             <element signature="e#3174#3219#1" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
-            <element signature="e#3499#3528#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3516#3545#0" expanded="true" />
+            <element signature="e#3558#3658#0" expanded="true" />
+            <element signature="e#3558#3658#0" expanded="true" />
+            <element signature="e#3694#3715#0" expanded="true" />
+            <element signature="e#3694#3715#0" expanded="true" />
             <element signature="e#3325#3375#1" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
             <element signature="e#3418#3431#0" expanded="true" />
-            <element signature="e#3703#3745#0" expanded="true" />
+            <element signature="e#3869#3911#0" expanded="true" />
             <element signature="e#3467#3499#1" expanded="true" />
-            <element signature="e#3878#3911#0" expanded="true" />
-            <element signature="e#3878#3911#0" expanded="true" />
+            <element signature="e#4044#4077#0" expanded="true" />
+            <element signature="e#4044#4077#0" expanded="true" />
           </folding>
         </state>
       </provider>

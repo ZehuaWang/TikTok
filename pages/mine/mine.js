@@ -14,9 +14,10 @@ Page({
   logout: function () {
 
     var user = app.userInfo;
+    var serverUrl = app.serverUrl;
 
     wx.request({
-      url:serverUrl + '/logout?userId=' + user.id,
+      url: serverUrl + '/logout?userId=' + user.id,
       method: "POST",
       header: {
         'content-type' : 'application/json'
@@ -27,6 +28,6 @@ Page({
         if(res.data.status == 200) {}
       }
     })
-    
+
   }
 })

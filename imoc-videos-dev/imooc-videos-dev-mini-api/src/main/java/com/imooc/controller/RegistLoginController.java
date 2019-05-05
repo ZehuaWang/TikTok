@@ -88,8 +88,13 @@ public class RegistLoginController extends BasicController{
     @PostMapping("/logout")
     public IMoocJSONResult logout(String userId) throws Exception {
         //Delete the user session in redis means log out
-        redis.del(USER_REDIS_SESSION+":"+userId);
-        return null;
+        try{
+            redis.del(USER_REDIS_SESSION+":"+userId);
+        } catch (Exception e) {
+            return IMoocJSONResult.errorMsg("User already log out");
+        }
+
+        return IMoocJSONResult.ok(userId+" has log out");
     }
 
     private UsersVO setUsersRedisSessionToken(Users usersModel) {
