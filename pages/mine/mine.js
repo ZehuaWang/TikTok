@@ -44,6 +44,8 @@ Page({
 
   changeFace: function () {
 
+    var me = this;
+
     //Open the photo
     wx.chooseImage({
       count: 1,
@@ -68,18 +70,23 @@ Page({
           'content-type' : 'application/json'
         },
         success: function(res) {
-          var data = res.data;
+          var data = JSON.parse(res.data);
           console.log(data);
           wx.hideLoading();
-          if(res.data.status == 200) {
+          if(data.status == 200) {
             wx.showToast({
               title: 'Upload success',
               icon: "success",
               duration: 3000
             });
-          } else if(res.data.status == 500) {
+            var imageUrl = data.data;
+            me.setData({
+              faceUrl: serverUrl + imageUrl
+            });
+            console.log(faceUrl); 
+          } else if(data.status == 500) {
             wx.showToast({
-              title: res.data.msg
+              title: data.msg
             });
           }
         }
