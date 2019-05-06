@@ -96,7 +96,7 @@ public class userController {
         users.setFaceImage(uploadPathDB);
         userService.updateUserInfo(users);
 
-        return IMoocJSONResult.ok();
+        return IMoocJSONResult.ok(uploadPathDB);
     }
 
 
