@@ -24,4 +24,11 @@ public interface UserService {
      * @param user
      */
     public void updateUserInfo(Users user);
+
+    /**
+     * Get the user information
+     * @param userId
+     * @return
+     */
+    public Users queryUserInfo(String userId);
 }

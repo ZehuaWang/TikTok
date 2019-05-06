@@ -50,6 +50,7 @@ public class UserServiceImpl implements UserService {
         return result;
     }
 
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void updateUserInfo(Users user) {
         Example userExample = new Example(Users.class);
@@ -58,5 +59,13 @@ public class UserServiceImpl implements UserService {
         userMapper.updateByExampleSelective(user, userExample);
     }
 
-
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public Users queryUserInfo(String userId) {
+        Example userExample = new Example(Users.class);
+        Example.Criteria criteria = userExample.createCriteria();
+        criteria.andEqualTo("id",userId);
+        Users users = userMapper.selectOneByExample(userExample);
+        return users;
+    }
 }
