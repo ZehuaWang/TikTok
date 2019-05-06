@@ -1,11 +1,14 @@
 package com.imooc.controller;
 
 import com.imooc.pojo.Users;
+import com.imooc.pojo.vo.UsersVO;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMoocJSONResult;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.IOUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -99,6 +102,8 @@ public class userController {
         return IMoocJSONResult.ok(uploadPathDB);
     }
 
+    @ApiOperation(value = "Get user information", notes = "interface for get user information")
+    @ApiImplicitParam(name = "userId", value="userId", required = true, dataType = "String", paramType = "query")
     @PostMapping("/query")
     public IMoocJSONResult query(String userId) throws Exception {
 
@@ -106,7 +111,11 @@ public class userController {
             return IMoocJSONResult.errorMsg("User ID can not be empty...");
         }
 
-        return IMoocJSONResult.ok();
+        Users userInfo = userService.queryUserInfo(userId);
+        UsersVO usersVO = new UsersVO();
+        BeanUtils.copyProperties(userInfo,usersVO);
+
+        return IMoocJSONResult.ok(usersVO);
     }
 
 }
