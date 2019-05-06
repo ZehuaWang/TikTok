@@ -99,5 +99,14 @@ public class userController {
         return IMoocJSONResult.ok(uploadPathDB);
     }
 
+    @PostMapping("/query")
+    public IMoocJSONResult query(String userId) throws Exception {
+
+        if(StringUtils.isEmpty(userId)) {
+            return IMoocJSONResult.errorMsg("User ID can not be empty...");
+        }
+
+        return IMoocJSONResult.ok();
+    }
 
 }
