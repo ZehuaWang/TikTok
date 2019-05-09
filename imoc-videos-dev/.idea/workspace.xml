@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/vo/UsersVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-pojo/src/main/java/com/imooc/pojo/vo/UsersVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/mine/mine.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="userController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="109" column="41" lean-forward="true" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+            <state relative-caret-position="304">
+              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1331#1352#1" expanded="true" />
@@ -495,12 +494,12 @@
       <workItem from="1555938321724" duration="27272000" />
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
-      <workItem from="1556594248957" duration="16828000" />
+      <workItem from="1556594248957" duration="17177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46900000" />
+    <option name="totallyTimeSpent" value="47249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,7 +511,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1018,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="109" column="41" lean-forward="true" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+        <state relative-caret-position="304">
+          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1331#1352#1" expanded="true" />

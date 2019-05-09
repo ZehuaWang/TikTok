@@ -7,8 +7,31 @@ Page({
 
   },
 
-  onLoad: function (params) {
+  onLoad: function () {
+    var me = this;
 
+    var user = app.userInfo;
+
+    wx.showLoading({
+      title: 'Please wait...',
+    })
+
+    var serverUrl = app.serverUrl;
+
+    wx.request({
+      url: serverUrl+'/user/query?userId='+user.id,
+      method: "POST",
+      header: {
+        'content-type' : 'application/json' 
+      },
+      success: function(res) {
+        console.log(res.data);
+        wx.hideLoading();
+        if(res.data.status == 200) {
+          var userInfo = res.data.data;
+        }
+      }
+    })
   },
 
   logout: function () {
