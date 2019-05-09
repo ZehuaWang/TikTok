@@ -29,6 +29,18 @@ Page({
         wx.hideLoading();
         if(res.data.status == 200) {
           var userInfo = res.data.data;
+          var faceUrl = "../resource/images/noneface.png";
+          if(userInfo.faceImage != null && userInfo.faceImage != '' && 
+          userInfo.faceImage != undefined) {
+              faceUrl = serverUrl + userInfo.faceImage;
+            }
+          me.setData({
+            faceUrl: faceUrl,
+            fansCounts: userInfo.fansCounts,
+            followCounts: userInfo.followCounts,
+            receiveLikeCounts: userInfo.receiveLikeCounts,
+            nickname: userInfo.nickname
+          });
         }
       }
     })
