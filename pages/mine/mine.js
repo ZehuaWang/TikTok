@@ -137,8 +137,27 @@ Page({
       sourceType: ['album'],
       success: function (res) {
         console.log(res);
+
+        var duration = res.duration;
+        var tmpWidth = res.width;
+        var tmpHeight = res.height;
+        var tmpVideoUrl = res.tempFilePath;
+        var tmpCoverUrl = res.thumbTempFilePath;
+
+        //If the video duration is large than 10 seconds
+        if(duration > 11) {
+          wx.showToast({
+            title: 'The video length can not longer than 10 seconds..',
+            icon: "none",
+            duration: 2500
+          })
+        } else {
+          //TODO 打开选择bgm的页面
+
+
+        }
       }
     })
-    
+
   }
 })
