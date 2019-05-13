@@ -128,5 +128,17 @@ Page({
       })
       }
     })
+  },
+
+  uploadVideo: function() {
+    var me = this;
+
+    wx.chooseVideo({
+      sourceType: ['album'],
+      success: function (res) {
+        console.log(res);
+      }
+    })
+    
   }
 })
