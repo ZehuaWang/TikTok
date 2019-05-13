@@ -151,6 +151,12 @@ Page({
             icon: "none",
             duration: 2500
           })
+        } else if(duration < 1) {
+           wx.showToast({
+             title: 'The length of the video is too short..',
+             icon: "none",
+             duration: 2500 
+           }) 
         } else {
           //TODO 打开选择bgm的页面
 
