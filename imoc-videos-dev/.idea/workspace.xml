@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/BgmController.java" afterDir="false" />
-    </list>
+    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-common/target/" />
@@ -479,12 +477,12 @@
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
       <workItem from="1556594248957" duration="17427000" />
-      <workItem from="1557633872022" duration="4077000" />
+      <workItem from="1557633872022" duration="4258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51576000" />
+    <option name="totallyTimeSpent" value="51757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
