@@ -9,7 +9,7 @@
 
           <audio style='300px' name='{{item.name}}' author='{{item.author}}' src='{{serverUrl}}{{item.path}}' id='myAudio' controls loop></audio>
 
-          <radio style='margin-top:20px;' value=''></radio>
+          <radio style='margin-top:20px;' value='{{item.id}}'></radio>
 
         </view>
 

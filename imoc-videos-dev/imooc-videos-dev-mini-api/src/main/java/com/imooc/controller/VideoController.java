@@ -1,14 +1,10 @@
 package com.imooc.controller;
 
 import com.imooc.utils.IMoocJSONResult;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
-import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.*;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -30,9 +26,9 @@ public class VideoController {
             @ApiImplicitParam(name = "videoHeight", required = true),
             @ApiImplicitParam(name = "description", required = false)
     })
-    @PostMapping("/upload")
+    @PostMapping(value = "/upload", headers = "content-type=multipart/form-data")
     public IMoocJSONResult upload(String userId, String bgmId, double videoSeconds, int videoWidth,
-                                  int videoHeight, String desc, @RequestParam("file")MultipartFile files) throws Exception {
+                                  int videoHeight, String desc, @ApiParam(value = "Short Video", required = true) MultipartFile files) throws Exception {
 
         if(StringUtils.isEmpty(userId)) {return IMoocJSONResult.errorMsg("User Id can not be empty");}
 
