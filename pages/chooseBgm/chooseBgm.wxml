@@ -3,14 +3,17 @@
 
        <radio-group name="bgmId">
 
+        <block wx:for="{{bgmList}}">
+        
         <view class='container'>
 
-          <audio poster='{{poster}}' name='{{name}}' author='{{author}}' src='{{src}}' id='myAudio' controls loop>
-          </audio>
+          <audio style='300px' name='{{item.name}}' author='{{item.author}}' src='{{serverUrl}}{{item.path}}' id='myAudio' controls loop></audio>
 
           <radio style='margin-top:20px;' value=''></radio>
 
         </view>
+
+        </block>
 
        </radio-group>
 
