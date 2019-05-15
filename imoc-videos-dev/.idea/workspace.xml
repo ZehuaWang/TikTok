@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imoc-user-file/bgm/Lady Gaga - Poker Face.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,9 +35,10 @@
       <file leaf-file-name="userController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="211">
+              <caret line="49" column="78" lean-forward="true" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1657#1727#1" expanded="true" />
                 <element signature="e#1760#1805#1" expanded="true" />
                 <element signature="e#1782#1804#0" expanded="true" />
@@ -124,10 +124,34 @@
       <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="186">
+              <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1684#1754#1" expanded="true" />
+                <element signature="e#1857#1903#1" expanded="true" />
+                <element signature="e#1817#1835#0" expanded="true" />
+                <element signature="e#1817#1835#0" expanded="true" />
+                <element signature="e#1934#1975#1" expanded="true" />
+                <element signature="e#1984#2015#1" expanded="true" />
+                <element signature="e#2078#2101#1" expanded="true" />
+                <element signature="e#2096#2123#0" expanded="true" />
+                <element signature="e#2233#2266#1" expanded="true" />
+                <element signature="e#2278#2313#0" expanded="true" />
+                <element signature="e#2278#2313#0" expanded="true" />
+                <element signature="e#2278#2313#0" expanded="true" />
+                <element signature="e#2278#2313#0" expanded="true" />
+                <element signature="e#2278#2313#0" expanded="true" />
+                <element signature="e#2407#2421#0" expanded="true" />
+                <element signature="e#2407#2421#0" expanded="true" />
+                <element signature="e#2445#2470#1" expanded="true" />
+                <element signature="e#2530#2553#0" expanded="true" />
+                <element signature="e#2566#2589#0" expanded="true" />
+                <element signature="e#2566#2603#0" expanded="true" />
+                <element signature="e#2631#2654#0" expanded="true" />
+                <element signature="e#2812#2834#0" expanded="true" />
+                <element signature="e#3093#3223#0" expanded="true" />
+                <element signature="e#3093#3223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -481,12 +505,12 @@
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
       <workItem from="1556594248957" duration="17427000" />
-      <workItem from="1557633872022" duration="5023000" />
+      <workItem from="1557633872022" duration="6289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52522000" />
+    <option name="totallyTimeSpent" value="53788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,52 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#1657#1727#1" expanded="true" />
-            <element signature="e#1760#1805#1" expanded="true" />
-            <element signature="e#1782#1804#0" expanded="true" />
-            <element signature="e#1782#1804#0" expanded="true" />
-            <element signature="e#1815#1856#1" expanded="true" />
-            <element signature="e#1865#1896#1" expanded="true" />
-            <element signature="e#1924#2887#0" expanded="true" />
-            <element signature="e#1924#2887#0" expanded="true" />
-            <element signature="e#1982#2031#1" expanded="true" />
-            <element signature="e#2000#2030#0" expanded="true" />
-            <element signature="e#2048#2811#0" expanded="true" />
-            <element signature="e#2048#2811#0" expanded="true" />
-            <element signature="e#2139#2204#1" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2276#2290#0" expanded="true" />
-            <element signature="e#2276#2290#0" expanded="true" />
-            <element signature="e#2314#2353#1" expanded="true" />
-            <element signature="e#2375#2568#0" expanded="true" />
-            <element signature="e#2379#2402#0" expanded="true" />
-            <element signature="e#2415#2438#0" expanded="true" />
-            <element signature="e#2415#2452#0" expanded="true" />
-            <element signature="e#2375#2568#0" expanded="true" />
-            <element signature="e#2513#2536#0" expanded="true" />
-            <element signature="e#2701#2726#0" expanded="true" />
-            <element signature="e#2898#3029#0" expanded="true" />
-            <element signature="e#2898#3029#0" expanded="true" />
-            <element signature="e#3273#3299#1" expanded="true" />
-            <element signature="e#3308#3327#0" expanded="true" />
-            <element signature="e#3308#3327#0" expanded="true" />
-            <element signature="e#3337#3369#0" expanded="true" />
-            <element signature="e#3337#3369#0" expanded="true" />
-            <element signature="e#3913#3964#1" expanded="true" />
-            <element signature="e#3973#4005#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/BgmService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -969,12 +947,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/userController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="211">
+          <caret line="49" column="78" lean-forward="true" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1657#1727#1" expanded="true" />
+            <element signature="e#1760#1805#1" expanded="true" />
+            <element signature="e#1782#1804#0" expanded="true" />
+            <element signature="e#1782#1804#0" expanded="true" />
+            <element signature="e#1815#1856#1" expanded="true" />
+            <element signature="e#1865#1896#1" expanded="true" />
+            <element signature="e#1924#2887#0" expanded="true" />
+            <element signature="e#1924#2887#0" expanded="true" />
+            <element signature="e#1982#2031#1" expanded="true" />
+            <element signature="e#2000#2030#0" expanded="true" />
+            <element signature="e#2048#2811#0" expanded="true" />
+            <element signature="e#2048#2811#0" expanded="true" />
+            <element signature="e#2139#2204#1" expanded="true" />
+            <element signature="e#2162#2203#0" expanded="true" />
+            <element signature="e#2162#2203#0" expanded="true" />
+            <element signature="e#2162#2203#0" expanded="true" />
+            <element signature="e#2162#2203#0" expanded="true" />
+            <element signature="e#2162#2203#0" expanded="true" />
+            <element signature="e#2276#2290#0" expanded="true" />
+            <element signature="e#2276#2290#0" expanded="true" />
+            <element signature="e#2314#2353#1" expanded="true" />
+            <element signature="e#2375#2568#0" expanded="true" />
+            <element signature="e#2379#2402#0" expanded="true" />
+            <element signature="e#2415#2438#0" expanded="true" />
+            <element signature="e#2415#2452#0" expanded="true" />
+            <element signature="e#2375#2568#0" expanded="true" />
+            <element signature="e#2513#2536#0" expanded="true" />
+            <element signature="e#2701#2726#0" expanded="true" />
+            <element signature="e#2898#3029#0" expanded="true" />
+            <element signature="e#2898#3029#0" expanded="true" />
+            <element signature="e#3273#3299#1" expanded="true" />
+            <element signature="e#3308#3327#0" expanded="true" />
+            <element signature="e#3308#3327#0" expanded="true" />
+            <element signature="e#3337#3369#0" expanded="true" />
+            <element signature="e#3337#3369#0" expanded="true" />
+            <element signature="e#3913#3964#1" expanded="true" />
+            <element signature="e#3973#4005#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1684#1754#1" expanded="true" />
+            <element signature="e#1857#1903#1" expanded="true" />
+            <element signature="e#1817#1835#0" expanded="true" />
+            <element signature="e#1817#1835#0" expanded="true" />
+            <element signature="e#1934#1975#1" expanded="true" />
+            <element signature="e#1984#2015#1" expanded="true" />
+            <element signature="e#2078#2101#1" expanded="true" />
+            <element signature="e#2096#2123#0" expanded="true" />
+            <element signature="e#2233#2266#1" expanded="true" />
+            <element signature="e#2278#2313#0" expanded="true" />
+            <element signature="e#2278#2313#0" expanded="true" />
+            <element signature="e#2278#2313#0" expanded="true" />
+            <element signature="e#2278#2313#0" expanded="true" />
+            <element signature="e#2278#2313#0" expanded="true" />
+            <element signature="e#2407#2421#0" expanded="true" />
+            <element signature="e#2407#2421#0" expanded="true" />
+            <element signature="e#2445#2470#1" expanded="true" />
+            <element signature="e#2530#2553#0" expanded="true" />
+            <element signature="e#2566#2589#0" expanded="true" />
+            <element signature="e#2566#2603#0" expanded="true" />
+            <element signature="e#2631#2654#0" expanded="true" />
+            <element signature="e#2812#2834#0" expanded="true" />
+            <element signature="e#3093#3223#0" expanded="true" />
+            <element signature="e#3093#3223#0" expanded="true" />
           </folding>
         </state>
       </provider>
