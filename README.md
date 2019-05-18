@@ -18,7 +18,6 @@ and create their own video list. This project is based on Vue.js and Springboot.
 ### Sketch
 
 This is the first page when user open the application, the user need to input the username and the password. If this is
-
 a new user, then go to the register page.
 
 ![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/91558202183_.pic.jpg)
