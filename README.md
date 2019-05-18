@@ -1,0 +1,14 @@
+# Wechat Tiktok  
+
+README 
+
+English | 中文
+
+### Introductions 
+
+Tiktok is a moblie application based on Wechat, a  a Chinese multi-purpose messaging, social media and mobile payment app 
+developed by Tencent. Tiktok is a mini program based on wechat, mini program provides advanced features for developers like
+GPS information,  e-commerce and related API to invoker related phone devices like camera and blue tooth.
+
+Tiktok is a popular short video applications that users can browse and share shrot videos. Besides, users can follow other users
+and create their own video list. This project is based on Vue.js and Springboot. 
