@@ -159,7 +159,15 @@ Page({
            }) 
         } else {
           //TODO 打开选择bgm的页面
-
+          //利用 navigateTo将视频的信息传递到下一个页面
+          wx.navigateTo({
+            url: '../chooseBgm/chooseBgm?duration='+duration
+            +"&tmpHeight="+tmpHeight
+            +"&tmpWidth="+tmpWidth
+            +"&tmpVideoUrl="+tmpVideoUrl
+            +"&tmpCoverUrl="+tmpCoverUrl,
+            
+          })
 
         }
       }
