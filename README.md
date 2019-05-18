@@ -12,3 +12,5 @@ GPS information,  e-commerce and related API to invoker related phone devices li
 
 Tiktok is a popular short video applications that users can browse and share shrot videos. Besides, users can follow other users
 and create their own video list. This project is based on Vue.js and Springboot. 
+
+![image](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)
