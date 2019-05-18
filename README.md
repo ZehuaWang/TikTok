@@ -17,4 +17,4 @@ and create their own video list. This project is based on Vue.js and Springboot.
 
 ### Sketch
 
-
+![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/91558202183_.pic.jpg)
