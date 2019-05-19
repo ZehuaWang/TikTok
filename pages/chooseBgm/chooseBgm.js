@@ -6,8 +6,10 @@ Page({
       serverUrl: ""
     },
 
-    onLoad: function () {
+    onLoad: function (params) {
       var me = this;
+      //打印从mine.js传递过来的视频参数
+      console.log(params);
       wx.showToast({
         title: 'Please Wait...'
       });

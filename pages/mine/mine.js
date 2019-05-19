@@ -136,7 +136,7 @@ Page({
     wx.chooseVideo({
       sourceType: ['album'],
       success: function (res) {
-        console.log(res);
+        //console.log(res);
 
         var duration = res.duration;
         var tmpWidth = res.width;
@@ -165,8 +165,7 @@ Page({
             +"&tmpHeight="+tmpHeight
             +"&tmpWidth="+tmpWidth
             +"&tmpVideoUrl="+tmpVideoUrl
-            +"&tmpCoverUrl="+tmpCoverUrl,
-            
+            +"&tmpCoverUrl="+tmpCoverUrl
           })
 
         }

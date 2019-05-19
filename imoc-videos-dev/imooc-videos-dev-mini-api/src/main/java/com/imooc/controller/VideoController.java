@@ -61,6 +61,7 @@ public class VideoController {
                     fileOutputStream = new FileOutputStream(outFile);
                     inputStream = files.getInputStream();
                     org.apache.commons.io.IOUtils.copy(inputStream,fileOutputStream);
+
                 }
 
             } else {
