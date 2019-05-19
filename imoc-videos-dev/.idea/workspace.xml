@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/chooseBgm/chooseBgm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pages/chooseBgm/chooseBgm.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,8 +109,8 @@
       <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+            <state relative-caret-position="176">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1684#1754#1" expanded="true" />
@@ -135,8 +135,8 @@
                 <element signature="e#2566#2603#0" expanded="true" />
                 <element signature="e#2631#2654#0" expanded="true" />
                 <element signature="e#2812#2834#0" expanded="true" />
-                <element signature="e#2872#3002#0" expanded="true" />
-                <element signature="e#2872#3002#0" expanded="true" />
+                <element signature="e#2852#2982#0" expanded="true" />
+                <element signature="e#2852#2982#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -505,12 +505,12 @@
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
       <workItem from="1556594248957" duration="17427000" />
-      <workItem from="1557633872022" duration="11301000" />
+      <workItem from="1557633872022" duration="13209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58800000" />
+    <option name="totallyTimeSpent" value="60708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +542,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49928468" visible="true" weight="0.4957507" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49928468" visible="true" weight="0.30878186" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.32107496" />
       <window_info anchor="bottom" id="Spring" order="7" />
@@ -572,12 +572,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java</url>
-          <line>35</line>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1003,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="176">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1684#1754#1" expanded="true" />
@@ -1029,8 +1029,8 @@
             <element signature="e#2566#2603#0" expanded="true" />
             <element signature="e#2631#2654#0" expanded="true" />
             <element signature="e#2812#2834#0" expanded="true" />
-            <element signature="e#2872#3002#0" expanded="true" />
-            <element signature="e#2872#3002#0" expanded="true" />
+            <element signature="e#2852#2982#0" expanded="true" />
+            <element signature="e#2852#2982#0" expanded="true" />
           </folding>
         </state>
       </provider>

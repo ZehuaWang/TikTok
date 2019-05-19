@@ -44,9 +44,47 @@ Page({
       var me = this;
       var bgmId = e.detail.value.bgmId;
       var desc = e.detail.value.desc;
+      // For test
+      //console.log("bgmId: " + bgmId);
+      //console.log("desc: " + desc);
+      
+      var duration    = me.data.videoParams.duration;
+      var tmpWidth    = me.data.videoParams.tmpWidth;
+      var tmpHeight   = me.data.videoParams.tmpHeight;
+      var tmpVideoUrl = me.data.videoParams.tmpVideoUrl;
+      var tmpCoverUrl = me.data.videoParams.tmpCoverUrl;
 
-      console.log("bgmId: " + bgmId);
-      console.log("desc: " + desc);
+      //Upload short video
+      wx.showLoading({
+        title: 'Uploading...'
+      })
+      var serverUrl = app.serverUrl;
+      wx.uploadFile({
+        url: serverUrl + '/video/upload',
+        formData:{
+          userId: app.userInfo.id,
+          bgmId: bgmId,
+          desc: desc,
+          videoSeconds: duration,
+          videoHeight: tmpHeight,
+          videoWidth: tmpWidth
+        },
+        filePath: tmpVideoUrl,
+        name: 'files',
+        header: {
+          'content-type' : 'application/json'
+        },
+        success: function(res){
+          var data = JSON.parse(res.data);
+          wx.hideLoading();
+          if(data.status == 200) {
+              wx.showToast({
+                title: 'Upload Successfully',
+                icon: "success"
+              });
+          }
+        }
+      })
     }
 })
 
