@@ -3,13 +3,19 @@ const app = getApp()
 Page({
     data: {
       bgmList: [],
-      serverUrl: ""
+      serverUrl: "",
+      videoParams: {}
     },
 
     onLoad: function (params) {
       var me = this;
       //打印从mine.js传递过来的视频参数
       console.log(params);
+
+      me.setData({
+       videoParams : params 
+      });
+
       wx.showToast({
         title: 'Please Wait...'
       });
@@ -32,6 +38,15 @@ Page({
           }
         }
       })
+    },
+
+    upload: function(e) {
+      var me = this;
+      var bgmId = e.detail.value.bgmId;
+      var desc = e.detail.value.desc;
+
+      console.log("bgmId: " + bgmId);
+      console.log("desc: " + desc);
     }
 })
 
