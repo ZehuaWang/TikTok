@@ -25,3 +25,5 @@ a new user, then go to the register page.
 This is the user register page where new user can regist new account.
 
 ![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/WechatIMG13.jpeg)
+
+### New Features
