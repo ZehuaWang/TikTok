@@ -31,3 +31,4 @@ Features| Related Componenet
 --|:--:
 Platform Independent| Based On Wechat MiniProgram
 Online interface doc and auto test | Use Swagger2 API
+Single Sign on and High session volume | Design sperate Redis log in module
