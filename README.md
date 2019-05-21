@@ -30,3 +30,4 @@ This is the user register page where new user can regist new account.
 Features| Related Componenet
 --|:--:
 Platform Independent| Based On Wechat MiniProgram
+Online interface doc and auto test | Use Swagger2 API
