@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc-videos-dev-common/src/main/java/com/imooc/utils/FFMpegTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-common/src/main/java/com/imooc/utils/FFMpegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-common/src/main/java/com/imooc/utils/FFMpegTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,22 +145,19 @@
       <file leaf-file-name="FFMpegTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-common/src/main/java/com/imooc/utils/FFMpegTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="134" selection-end-line="31" selection-end-column="134" />
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#323#379#1" expanded="true" />
                 <element signature="e#374#391#0" expanded="true" />
-                <element signature="e#463#482#0" expanded="true" />
-                <element signature="e#463#482#0" expanded="true" />
-                <element signature="e#492#510#0" expanded="true" />
-                <element signature="e#492#510#0" expanded="true" />
-                <element signature="e#520#551#0" expanded="true" />
-                <element signature="e#530#549#0" expanded="true" />
-                <element signature="e#520#551#0" expanded="true" />
-                <element signature="e#561#593#0" expanded="true" />
-                <element signature="e#571#590#0" expanded="true" />
-                <element signature="e#561#593#0" expanded="true" />
+                <element signature="e#433#452#0" expanded="true" />
+                <element signature="e#433#452#0" expanded="true" />
+                <element signature="e#462#479#0" expanded="true" />
+                <element signature="e#462#479#0" expanded="true" />
+                <element signature="e#489#516#0" expanded="true" />
+                <element signature="e#489#516#0" expanded="true" />
+                <element signature="e#526#554#0" expanded="true" />
+                <element signature="e#526#554#0" expanded="true" />
                 <element signature="e#597#605#0" expanded="true" />
                 <element signature="e#410#462#1" expanded="true" />
                 <element signature="e#287#310#1" expanded="true" />
@@ -537,12 +534,12 @@
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
       <workItem from="1556594248957" duration="17427000" />
-      <workItem from="1557633872022" duration="16432000" />
+      <workItem from="1557633872022" duration="17487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63931000" />
+    <option name="totallyTimeSpent" value="64986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,22 +1053,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-common/src/main/java/com/imooc/utils/FFMpegTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="134" selection-end-line="31" selection-end-column="134" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#323#379#1" expanded="true" />
             <element signature="e#374#391#0" expanded="true" />
-            <element signature="e#463#482#0" expanded="true" />
-            <element signature="e#463#482#0" expanded="true" />
-            <element signature="e#492#510#0" expanded="true" />
-            <element signature="e#492#510#0" expanded="true" />
-            <element signature="e#520#551#0" expanded="true" />
-            <element signature="e#530#549#0" expanded="true" />
-            <element signature="e#520#551#0" expanded="true" />
-            <element signature="e#561#593#0" expanded="true" />
-            <element signature="e#571#590#0" expanded="true" />
-            <element signature="e#561#593#0" expanded="true" />
+            <element signature="e#433#452#0" expanded="true" />
+            <element signature="e#433#452#0" expanded="true" />
+            <element signature="e#462#479#0" expanded="true" />
+            <element signature="e#462#479#0" expanded="true" />
+            <element signature="e#489#516#0" expanded="true" />
+            <element signature="e#489#516#0" expanded="true" />
+            <element signature="e#526#554#0" expanded="true" />
+            <element signature="e#526#554#0" expanded="true" />
             <element signature="e#597#605#0" expanded="true" />
             <element signature="e#410#462#1" expanded="true" />
             <element signature="e#287#310#1" expanded="true" />
