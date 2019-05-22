@@ -23,3 +23,13 @@ a new user, then go to the register page.
 ![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/91558202183_.pic.jpg)
 
 This is the user register page where new user can regist new account.
+
+![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/WechatIMG13.jpeg)
+
+### New Features
+Features| Related Componenet
+--|:--:
+Platform Independent| Based On Wechat MiniProgram
+Online interface doc and auto test | Use Swagger2 API
+Single Sign on and High session volume | Design sperate Redis log in module
+Easy video edit and audio combine | Use open source ffmpeg lib
