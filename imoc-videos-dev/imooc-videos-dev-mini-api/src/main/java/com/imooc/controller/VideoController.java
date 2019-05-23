@@ -94,17 +94,16 @@ public class VideoController extends BasicController {
             Bgm bgm = bgmService.queryBgmById(bgmId);
             //得到mp3文件的绝对路径
             String mp3InputPath = fileSpace + bgm.getPath();
+            System.out.println(mp3InputPath);
             String ffmpeg = "/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/ffmpeg";
             MergeVideoMp3 mergeVideoMp3 = new MergeVideoMp3(ffmpeg);
             String videoInputPath = finalVideoPath;
             String videoOutputName = UUID.randomUUID().toString() + ".mp4";
             uploadPathDB = "/" + userId + "/video" + "/" +videoOutputName;
-            finalVideoPath = FILE_SPACE + uploadPathDB;
-            mergeVideoMp3.convertor(videoInputPath,mp3InputPath,videoSeconds,finalVideoPath);
+            String finalVideoPathwithBgm = FILE_SPACE + uploadPathDB;
+            Thread.sleep(10);
+            mergeVideoMp3.convertor(videoInputPath,mp3InputPath,videoSeconds,finalVideoPathwithBgm);
         }
-
-        System.out.println("finalVideoPath= " + finalVideoPath);
-
         return IMoocJSONResult.ok();
     }
 }

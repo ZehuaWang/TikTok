@@ -37,5 +37,4 @@ public class MergeVideoMp3 {
         mergeVideoMp3.convertor("/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/cat.mp4","/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/pokerface.mp3",7,"/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/catwithbgm.mp4");
     }
 
-
 }
