@@ -1,8 +1,11 @@
 package com.imooc.controller;
 
 import com.imooc.pojo.Bgm;
+import com.imooc.service.BgmService;
 import com.imooc.utils.IMoocJSONResult;
+import com.imooc.utils.MergeVideoMp3;
 import io.swagger.annotations.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,11 +15,15 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.UUID;
 
 @RestController
 @Api(value = "Video Related Business Logic Interface", tags = {"Video Related Business Logic Controller"})
 @RequestMapping("/video")
-public class VideoController {
+public class VideoController extends BasicController {
+
+    @Autowired
+    private BgmService bgmService;
 
     @ApiOperation(value = "upload video", notes = "interface for video upload")
     @ApiImplicitParams({
@@ -39,6 +46,8 @@ public class VideoController {
         //保存到数据库中的相对路径
         String uploadPathDB = "/" + userId + "/video";
 
+        String finalVideoPath = "";
+
         FileOutputStream fileOutputStream = null;
         InputStream inputStream = null;
 
@@ -48,7 +57,7 @@ public class VideoController {
                 String fileName = files.getOriginalFilename();
                 if(!StringUtils.isEmpty(fileName)) {
                     //文件上传的最终保存的路径
-                    String finalVideoPath = fileSpace+uploadPathDB+"/"+fileName;
+                    finalVideoPath = fileSpace+uploadPathDB+"/"+fileName;
 
                     //设置数据库的保存的路径
                     uploadPathDB += ("/" + fileName);
@@ -82,7 +91,19 @@ public class VideoController {
         //判断bgm的id是否为空 如果不为空 需要进行音频与视频的合并 查询bgm的信息 并且合并视频 生成新的视频
         if(!StringUtils.isEmpty(bgmId)) {
             //从数据库中取出对应的bgm
+            Bgm bgm = bgmService.queryBgmById(bgmId);
+            //得到mp3文件的绝对路径
+            String mp3InputPath = fileSpace + bgm.getPath();
+            String ffmpeg = "/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/ffmpeg";
+            MergeVideoMp3 mergeVideoMp3 = new MergeVideoMp3(ffmpeg);
+            String videoInputPath = finalVideoPath;
+            String videoOutputName = UUID.randomUUID().toString() + ".mp4";
+            uploadPathDB = "/" + userId + "/video" + "/" +videoOutputName;
+            finalVideoPath = FILE_SPACE + uploadPathDB;
+            mergeVideoMp3.convertor(videoInputPath,mp3InputPath,videoSeconds,finalVideoPath);
         }
+
+        System.out.println("finalVideoPath= " + finalVideoPath);
 
         return IMoocJSONResult.ok();
     }
