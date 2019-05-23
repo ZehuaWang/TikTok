@@ -1,5 +1,6 @@
 package com.imooc.controller;
 
+import com.imooc.pojo.Bgm;
 import com.imooc.utils.IMoocJSONResult;
 import io.swagger.annotations.*;
 import org.springframework.util.StringUtils;
@@ -77,6 +78,12 @@ public class VideoController {
                 fileOutputStream.close();
             }
         }
+
+        //判断bgm的id是否为空 如果不为空 需要进行音频与视频的合并 查询bgm的信息 并且合并视频 生成新的视频
+        if(!StringUtils.isEmpty(bgmId)) {
+            //从数据库中取出对应的bgm
+        }
+
         return IMoocJSONResult.ok();
     }
 }
