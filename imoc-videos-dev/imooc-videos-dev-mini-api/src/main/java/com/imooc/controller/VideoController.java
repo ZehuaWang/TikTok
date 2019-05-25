@@ -1,6 +1,8 @@
 package com.imooc.controller;
 
+import com.imooc.enums.VideoStatusEnum;
 import com.imooc.pojo.Bgm;
+import com.imooc.pojo.Videos;
 import com.imooc.service.BgmService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MergeVideoMp3;
@@ -15,6 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.UUID;
 
 @RestController
@@ -104,6 +107,19 @@ public class VideoController extends BasicController {
             Thread.sleep(10);
             mergeVideoMp3.convertor(videoInputPath,mp3InputPath,videoSeconds,finalVideoPathwithBgm);
         }
+
+        //保存视频信息到数据库
+        Videos videos = new Videos();
+        videos.setId(bgmId);
+        videos.setUserId(userId);
+        videos.setVideoSeconds((float)videoSeconds);
+        videos.setVideoHeight(videoHeight);
+        videos.setVideoWidth(videoWidth);
+        videos.setVideoDesc(desc);
+        videos.setVideoPath(uploadPathDB);
+        videos.setStatus(VideoStatusEnum.SUCCESS.getValue());
+        videos.setCreateTime(new Date());
+        
         return IMoocJSONResult.ok();
     }
 }
