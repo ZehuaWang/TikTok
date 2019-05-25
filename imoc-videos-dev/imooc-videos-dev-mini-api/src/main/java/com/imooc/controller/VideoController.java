@@ -4,6 +4,7 @@ import com.imooc.enums.VideoStatusEnum;
 import com.imooc.pojo.Bgm;
 import com.imooc.pojo.Videos;
 import com.imooc.service.BgmService;
+import com.imooc.service.VideoService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MergeVideoMp3;
 import io.swagger.annotations.*;
@@ -27,6 +28,9 @@ public class VideoController extends BasicController {
 
     @Autowired
     private BgmService bgmService;
+
+    @Autowired
+    private VideoService videoService;
 
     @ApiOperation(value = "upload video", notes = "interface for video upload")
     @ApiImplicitParams({
@@ -119,7 +123,9 @@ public class VideoController extends BasicController {
         videos.setVideoPath(uploadPathDB);
         videos.setStatus(VideoStatusEnum.SUCCESS.getValue());
         videos.setCreateTime(new Date());
-        
+
+        videoService.saveVideo(videos);
+
         return IMoocJSONResult.ok();
     }
 }

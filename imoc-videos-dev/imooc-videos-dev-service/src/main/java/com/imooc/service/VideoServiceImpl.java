@@ -4,9 +4,11 @@ import com.imooc.mapper.VideosMapper;
 import com.imooc.pojo.Videos;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+@Service
 public class VideoServiceImpl implements VideoService{
 
     @Autowired
