@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="610ca2a3-6a1f-4df1-ab63-98bf44041425" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/imooc-videos-dev-common/target/" />
@@ -34,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="171" column="31" lean-forward="true" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+            <state relative-caret-position="2443">
+              <caret line="133" column="133" selection-start-line="133" selection-start-column="133" selection-end-line="133" selection-end-column="133" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1684#1754#1" expanded="true" />
@@ -140,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VideoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="209">
+              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#858#930#1" expanded="true" />
@@ -546,12 +542,12 @@
       <workItem from="1556594085983" duration="57000" />
       <workItem from="1556594164377" duration="35000" />
       <workItem from="1556594248957" duration="17427000" />
-      <workItem from="1557633872022" duration="26785000" />
+      <workItem from="1557633872022" duration="27693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74284000" />
+    <option name="totallyTimeSpent" value="75192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,12 +579,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49928468" visible="true" weight="0.31728044" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" sideWeight="0.49928468" visible="true" weight="0.31728044" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3201133" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956153" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30686694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30686694" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" weight="0.3297568" />
@@ -1083,10 +1079,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#930#1" expanded="true" />
+            <element signature="e#949#970#0" expanded="true" />
+            <element signature="e#949#970#0" expanded="true" />
+            <element signature="e#980#1010#0" expanded="true" />
+            <element signature="e#980#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-videos-dev-mini-api/src/main/java/com/imooc/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="171" column="31" lean-forward="true" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+        <state relative-caret-position="2443">
+          <caret line="133" column="133" selection-start-line="133" selection-start-column="133" selection-end-line="133" selection-end-column="133" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1684#1754#1" expanded="true" />
@@ -1174,21 +1185,6 @@
             <element signature="e#6560#6582#0" expanded="true" />
             <element signature="e#6774#6904#0" expanded="true" />
             <element signature="e#6774#6904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-videos-dev-service/src/main/java/com/imooc/service/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#858#930#1" expanded="true" />
-            <element signature="e#949#970#0" expanded="true" />
-            <element signature="e#949#970#0" expanded="true" />
-            <element signature="e#980#1010#0" expanded="true" />
-            <element signature="e#980#1010#0" expanded="true" />
           </folding>
         </state>
       </provider>

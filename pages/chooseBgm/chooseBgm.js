@@ -82,6 +82,32 @@ Page({
                 title: 'Upload Successfully',
                 icon: "success"
               });
+              var videoId = data.data;
+              //Add the logic to upload the cover image
+              wx.uploadFile({
+                url: serverUrl+'/video/uploadCover',
+                formData: {
+                  userId: app.userInfo.id,
+                  videoId: videoId
+                },
+                filePath: tmpCoverUrl,
+                name: 'files',
+                header:{
+                  'content-type' : 'application/json'
+                },
+                success: function(res) {
+                  if(data.status == 200) {
+                    wx.showToast({
+                      title: 'Cover Upload Ok.',
+                      icon:"success"
+                    });
+                    wx.navigateBack({
+                      delta: 1
+                    })
+                  }
+                }
+              })
+
           }
         }
       })
