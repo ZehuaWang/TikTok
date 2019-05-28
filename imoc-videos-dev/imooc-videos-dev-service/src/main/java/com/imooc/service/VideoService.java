@@ -9,4 +9,12 @@ public interface VideoService {
      * @param videos
      */
     public String saveVideo(Videos videos);
+
+    /**
+     * 上传视频的封面截图
+     * @param videoId
+     * @param coverPath
+     * @return
+     */
+    public void updateVideo(String videoId, String coverPath);
 }

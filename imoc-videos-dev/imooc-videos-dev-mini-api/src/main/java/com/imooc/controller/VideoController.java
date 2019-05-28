@@ -129,7 +129,60 @@ public class VideoController extends BasicController {
         return IMoocJSONResult.ok(videoId);
     }
 
-    
+    @ApiOperation(value = "Uplaod Cover Image", notes = "Interface for upload cover image")
+    @PostMapping(value="/uploadCover", headers="content-type=multipart/form-data")
+    public IMoocJSONResult uploadCover(String userId,String videoId, @ApiParam(value="Video Cover", required = true) MultipartFile files) throws Exception {
+        if(StringUtils.isEmpty(videoId) || StringUtils.isEmpty(userId)) {return IMoocJSONResult.errorMsg("The primary key for video can not be empty");}
+
+        String fileSpace = "/Users/apple/Desktop/scala/TikTok/imoc-user-file";
+        String uploadPathDB = "/" + userId + "/video";
+
+        FileOutputStream fileOutputStream = null;
+        InputStream inputStream = null;
+
+        String finalCoverPath = "";
+
+        try{
+
+            if(files != null) {
+                String fileName = files.getOriginalFilename();
+                if(!StringUtils.isEmpty(fileName)) {
+                    //文件上传的最终保存的路径
+                    finalCoverPath = fileSpace+uploadPathDB+"/"+fileName;
+
+                    //设置数据库的保存的路径
+                    uploadPathDB += ("/" + fileName);
+
+                    File outFile = new File(finalCoverPath);
+
+                    if(outFile.getParentFile() != null || !outFile.getParentFile().isDirectory()) {
+                        outFile.getParentFile().mkdirs();
+                    }
+
+                    fileOutputStream = new FileOutputStream(outFile);
+                    inputStream = files.getInputStream();
+                    org.apache.commons.io.IOUtils.copy(inputStream,fileOutputStream);
+
+                }
+
+            } else {
+                return IMoocJSONResult.errorMsg("Error when upload...");
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return IMoocJSONResult.errorMsg("Error when upload");
+        } finally {
+            if(fileOutputStream != null) {
+                fileOutputStream.flush();
+                fileOutputStream.close();
+            }
+        }
+
+        videoService.updateVideo(videoId,uploadPathDB);
+
+        return IMoocJSONResult.ok();
+    }
 
 
 }
