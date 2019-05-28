@@ -124,8 +124,12 @@ public class VideoController extends BasicController {
         videos.setStatus(VideoStatusEnum.SUCCESS.getValue());
         videos.setCreateTime(new Date());
 
-        videoService.saveVideo(videos);
+        String videoId = videoService.saveVideo(videos);
 
-        return IMoocJSONResult.ok();
+        return IMoocJSONResult.ok(videoId);
     }
+
+    
+
+
 }

@@ -8,5 +8,5 @@ public interface VideoService {
      * 保存视频
      * @param videos
      */
-    public void saveVideo(Videos videos);
+    public String saveVideo(Videos videos);
 }

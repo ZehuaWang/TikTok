@@ -19,9 +19,10 @@ public class VideoServiceImpl implements VideoService{
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
-    public void saveVideo(Videos videos) {
+    public String saveVideo(Videos videos) {
         String id = sid.nextShort();
         videos.setId(id);
         videosMapper.insertSelective(videos);
+        return id;
     }
 }
