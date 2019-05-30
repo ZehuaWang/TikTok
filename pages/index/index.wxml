@@ -1,14 +1,14 @@
-  <view wx:for="{{videoList}}" class="item-container">  
+  <!--<view wx:for="{{videoList}}" class="item-container">-->  
 
      <view style='width:{{screenWidth}}px;height:210px;' class='back-img'> 
-     <image src="{{serverUrl}}{{item.coverPath}}" style='width:{{screenWidth}}px;height:210px;' mode="aspectFit" bindtap='showVideoInfo' data-arrindex='{{index}}'></image>
+     <image src="http://192.168.2.10:8081/180425CFA4RB6T0H/video/wx73e245897285e333.o6zAJsxfY_a_RbJfWuD3qL8XBezg.dQStoN3N1lFkb1288d5dde1961a0c69cdd7c0baf6676.jpg" style='width:{{screenWidth}}px;height:210px;' mode="aspectFit" bindtap='showVideoInfo' data-arrindex='{{index}}'></image>
      </view> 
 
     <view class="desc">
         <view class="faceName">
-            <image class='myface' src="{{serverUrl}}{{item.faceImage}}"></image>
-            <view class="nickname">{{item.nickname}}</view>
+            <image class='myface' src="http://192.168.2.10:8081/180425CFA4RB6T0H/face/tmp_8f596a3e897c2d8871541cd262e11292.jpg"></image>
+            <view class="nickname">Eirc</view>
         </view>
     </view>
 
-  </view>  
+  <!--</view>-->  
