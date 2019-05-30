@@ -10,7 +10,7 @@ public interface VideosMapperCustom extends MyMapper<Videos> {
 
     public List<VideosVO> queryAllVideos();
 
-    
+
 
 
 }
