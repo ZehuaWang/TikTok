@@ -3,7 +3,6 @@ package com.imooc.pojo.vo;
 import java.util.Date;
 
 public class VideosVO {
-
     private String id;
     private String userId;
     private String audioId;
@@ -35,9 +34,6 @@ public class VideosVO {
     public void setNickname(String nickname) {
         this.nickname = nickname;
     }
-
-
-
 
 
 }
