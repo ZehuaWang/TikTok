@@ -19,8 +19,13 @@ Page({
 
     //获取当前的分页数
     var page = me.data.page;
-    var serverUrl = app.serverUrl;
+    me.getAllVideoList(page);
+  },
 
+  //获取全部的视频列表 -> 单独抽离成一个方法
+  getAllVideoList: function(page) {
+    var serverUrl = app.serverUrl;
+    var me = this;
     wx.showLoading({
       title: 'Please Wait'
     })
@@ -28,12 +33,12 @@ Page({
     wx.request({
       url: serverUrl + '/video/showAll?page=' + page,
       method: "POST",
-      success: function(res) {
+      success: function (res) {
         wx.hideLoading();
         console.log(res.data);
 
         // 判断当前页page是否是第一页,如果是第一页 则videoList清空
-        if(page == 1) {
+        if (page == 1) {
           me.setData({
             videoList: []
           })
@@ -50,15 +55,27 @@ Page({
         })
       }
     })
-
   },
 
   //上拉刷新
   onReachBottom: function() {
+    var me = this;
+    var currentPage = me.data.page;
+    var totalPage = me.data.totalPage;
+    //判断当前页数和总页数是否相等, 如果相等则无需查询
+    if(currentPage == totalPage) {
+      wx.showToast({
+        title: 'No More...',
+        icon: "none"
+      })
+      return;
+    }
 
-    
+    var page = currentPage + 1;
 
-  }
+    me.getAllVideoList(page);
+
+  } 
 
 
 })
