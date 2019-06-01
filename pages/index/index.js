@@ -51,5 +51,14 @@ Page({
       }
     })
 
+  },
+
+  //上拉刷新
+  onReachBottom: function() {
+
+    
+
   }
+
+
 })
