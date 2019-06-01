@@ -31,6 +31,23 @@ Page({
       success: function(res) {
         wx.hideLoading();
         console.log(res.data);
+
+        // 判断当前页page是否是第一页,如果是第一页 则videoList清空
+        if(page == 1) {
+          me.setData({
+            videoList: []
+          })
+        }
+
+        var videoList = res.data.data.rows;
+        var newVideoList = me.data.videoList;
+
+        me.setData({
+          videoList: newVideoList.concat(videoList),
+          page: page,
+          totalPage: res.data.data.total,
+          serverUrl: serverUrl
+        })
       }
     })
 
