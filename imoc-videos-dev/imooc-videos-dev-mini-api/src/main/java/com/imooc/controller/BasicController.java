@@ -19,4 +19,6 @@ public class BasicController {
     public static final String FFMPEG = "/Users/apple/Desktop/scala/ffmpeg/ffmpeg/bin/ffmpeg";
 
 
+    public static final Integer PAGE_SIZE = 5;
+
 }

@@ -7,6 +7,7 @@ import com.imooc.service.BgmService;
 import com.imooc.service.VideoService;
 import com.imooc.utils.IMoocJSONResult;
 import com.imooc.utils.MergeVideoMp3;
+import com.imooc.utils.PageResult;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
@@ -182,6 +183,13 @@ public class VideoController extends BasicController {
         videoService.updateVideo(videoId,uploadPathDB);
 
         return IMoocJSONResult.ok();
+    }
+
+    @PostMapping(value = "/showAll")
+    public IMoocJSONResult showAll(Integer page) throws Exception {
+           if(page == null) {page = 1;}
+           PageResult result = videoService.getAllVideos(page,PAGE_SIZE);
+           return IMoocJSONResult.ok(result);
     }
 
 
