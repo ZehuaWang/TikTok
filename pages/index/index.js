@@ -35,6 +35,8 @@ Page({
       method: "POST",
       success: function (res) {
         wx.hideLoading();
+        wx.hideNavigationBarLoading(); //隐藏导航条加载动画
+        wx.stopPullDownRefresh(); //停止下拉刷新
         console.log(res.data);
 
         // 判断当前页page是否是第一页,如果是第一页 则videoList清空
@@ -55,6 +57,11 @@ Page({
         })
       }
     })
+  },
+
+  onPullDownRefresh: function() {
+    wx.showNavigationBarLoading(); //显示导航条的加载动画
+    this.getAllVideoList(1);
   },
 
   //上拉刷新
