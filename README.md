@@ -26,6 +26,10 @@ This is the user register page where new user can regist new account.
 
 ![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/WechatIMG13.jpeg)
 
+This is the videoList page Where user can browse the latest videos.
+
+![image](https://github.com/ZehuaWang/TikTok/blob/master/pic/index.png)
+
 ### New Features
 Features| Related Componenet
 --|:--:
