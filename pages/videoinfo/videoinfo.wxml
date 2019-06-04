@@ -8,5 +8,21 @@
     <cover-image src='../resource/images/search.png' style="width:45rpx;height:45rpx" bindtap='showSearch'></cover-image>
 </cover-view>
 
+<cover-view class='container-me'>
+    <!-- 头像 -->
+    <cover-image class="face" src='{{serverUrl}}{{publisher.faceImage}}' bindtap='showPublisher'></cover-image>
+    <!-- 喜欢收藏按钮 -->
+    <block wx:if="{{userLikeVideo}}">
+          <cover-image class="size-me" src='../resource/images/like.png' style='margin-top:30rpx;' bindtap='likeVideoOrNot'></cover-image>
+    </block>
+    <block wx:else>
+          <cover-image class="size-me" src='../resource/images/unlike.png' style='margin-top:30rpx;' bindtap='likeVideoOrNot'></cover-image>
+    </block>
+    <!-- 评论按钮 -->
+    <cover-image class="size-me" src='../resource/images/comments.png' style='margin-top:30rpx;' bindtap='leaveComment'></cover-image>
+    <!-- 分享按钮 -->
+    <cover-image class="size-me" src='../resource/images/share.png' style='margin-top:30rpx;' bindtap='shareMe'></cover-image>
+</cover-view>
+
 </video>
 </view>
