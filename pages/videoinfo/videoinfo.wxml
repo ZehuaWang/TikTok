@@ -1,4 +1,5 @@
 <view style='width:100%;height:100%;'>
 <video src='http://192.168.2.10:8081/180425CFA4RB6T0H/video/wx73e245897285e333.o6zAJsxfY_a_RbJfWuD3qL8XBezg.VWQOz8GxkvV1351d6512bfec1cf8979f428ab0a2de90.mp4' muted='{{true}}' controls='{{false}}' autoplay='{{true}}' loop='{{true}}' enable-progress-gesture='{{false}}' style='width:100%;height:100%' objectFit='{{cover}}'>
+
 </video>
 </view>
