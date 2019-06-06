@@ -29,9 +29,7 @@
             <cover-view class='video-desc'>{{videoInfo.videoDesc}}</cover-view>
 </cover-view>
 
-
-
-    <cover-view class='container-bottom'>
+<cover-view class='container-bottom'>
     <!-- 首页按钮 -->
     <cover-image class='' src='../resource/images/index.png' class="size-bottom" bindtap='showIndex'></cover-image>
     <!-- 我的按钮 -->
