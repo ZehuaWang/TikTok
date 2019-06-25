@@ -10,7 +10,9 @@ Page({
   onLoad: function () {
     var me = this;
 
-    var user = app.userInfo;
+    //var user = app.userInfo;
+    // fix me 修改原有的全局对象为本地缓存
+    var user = app.getGlobalUserInfo();
 
     wx.showLoading({
       title: 'Please wait...',
@@ -48,7 +50,8 @@ Page({
 
   logout: function () {
 
-    var user = app.userInfo;
+    //var user = app.userInfo;
+    var user = app.getGlobalUserInfo();
     var serverUrl = app.serverUrl;
 
     wx.request({
@@ -61,7 +64,9 @@ Page({
         console.log(res.data);
         wx.hideLoading();
         if(res.data.status == 200) {
-          app.userInfo = null; //清除全局用户对象
+          //app.userInfo = null; //清除全局用户对象
+          // 注销以后 清空缓存
+          wx.removeStorageSync("userInfo");
           wx.showToast({
             title: 'Logout Successfully',
             icon: 'success',
@@ -91,13 +96,15 @@ Page({
       console.log(tempFilePaths);
 
       var serverUrl = app.serverUrl;
+      // fixme 修改原有的全局对象为本地缓存
+      var userInfo = app.getGlobalUserInfo();
       wx.showLoading({
         title: 'Uploading',
       })
 
       //Upload the face image
       wx.uploadFile({
-        url: serverUrl + '/user/uploadFace?userId=' + app.userInfo.id,
+        url: serverUrl + '/user/uploadFace?userId=' + userInfo.id,
         filePath: tempFilePaths[0],
 
         name: 'file',

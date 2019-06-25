@@ -59,7 +59,9 @@ Page({
             // fixme 修改原有的全局对象为本地缓存
             //app.setGlobalUserInfo(res.data.data);
             //设置全局对象
-            app.userInfo = res.data.data;
+            //app.userInfo = res.data.data;
+            // fix 修改原有的全局对象 为本地缓存
+            app.setGlobalUserInfo(res.data.data);
             // 页面跳转 -> 跳转到个人页面 mine
             wx.navigateTo({
               url: '../mine/mine'
